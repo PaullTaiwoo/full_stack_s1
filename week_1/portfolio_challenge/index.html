@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>[Your Name Here]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="assets/images/my-profile.png" alt="Profile Picture of [Your Name]" class="profile-pic">
+            <p>
+                Hello! I am a junior web developer passionate about building clean, accessible websites. 
+                I am currently learning HTML, CSS, and full-stack development.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Work</h2>
+            
+            <article class="project-card">
+                <img src="assets/images/project1.jpg" alt="Screenshot of Project 1">
+                <h3>Project 1: HTML Form</h3>
+                <p>A practice form using semantic HTML and inputs.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/project2.jpg" alt="Screenshot of Project 2">
+                <h3>Project 2: CSS Layouts</h3>
+                <p>An experiment with display modes and box positioning.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Email: <a href="mailto:email@example.com">email@example.com</a><br>
+                Phone: <a href="tel:5551234567">555-123-4567</a>
+            </p>
+
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
