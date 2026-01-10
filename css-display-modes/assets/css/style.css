@@ -1,0 +1,29 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* FIX 1: Make this visible */
+.hidden-text {
+    display: block; /* Changed from 'none' so it appears */
+}
+
+/* FIX 2: Make these sit side-by-side */
+.item {
+    display: inline-block; /* Changed from 'block' so they align horizontally */
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 5px;
+}
